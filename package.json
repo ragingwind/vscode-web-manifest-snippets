@@ -1,5 +1,5 @@
 {
-  "name": "vscode-web-manifest-snippets",
+  "name": "web-manifest-snippets",
   "displayName": "Web Manifest Snippets",
   "publisher": "ragingwind",
   "description": "Web Manifest Snippets for Progressive Web App",
@@ -11,7 +11,7 @@
     "url": "https://github.com/ragingwind/vscode-web-manifest-snippets"
   },
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Snippets"
