@@ -1,0 +1,25 @@
+{
+  "name": "vscode-web-manifest-snippets",
+  "displayName": "Web Manifest Snippets",
+  "publisher": "ragingwind",
+  "description": "Web Manifest Snippets for Progressive Web App",
+  "version": "0.1.0",
+  "icon": "images/icon192x192.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ragingwind/vscode-web-manifest-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [{
+        "language": "json",
+        "path": "./snippets/snippets.json"
+    }]
+  }
+}

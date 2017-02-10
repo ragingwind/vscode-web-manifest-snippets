@@ -1,0 +1,45 @@
+{
+  "Web Manifest": {
+    "prefix": "wmf",
+    "body": [
+      "{",
+      "\t\"name\": \"${1:name}\",",
+      "\t\"short_name\": \"${2:short name}\",",
+      "\t\"icons\": [",
+      "\t\t{",
+      "\t\t\t\"src\": \"icon-144x144.png\",",
+      "\t\t\t\"sizes\": \"144x144\",",
+      "\t\t\t\"type\": \"image/png\"",
+      "\t\t},",
+      "\t\t{",
+      "\t\t\t\"src\": \"icon-192x192.png\",",
+      "\t\t\t\"sizes\": \"192x192\",",
+      "\t\t\t\"type\": \"image/png\"",
+      "\t\t},",
+      "\t\t{",
+      "\t\t\t\"src\": \"icon-384x384.png\",",
+      "\t\t\t\"sizes\": \"384x384\",",
+      "\t\t\t\"type\": \"image/png\"",
+      "\t\t}",
+      "\t],",
+      "\t\"start_url\": \"./?utm_source=web_app_manifest\",",
+      "\t\"display\": \"${3:standalone}\",",
+      "\t\"background_color\": \"${4:#1A1A1A}\",",
+      "\t\"theme_color\": \"${5:#0A0A0A}\",",
+      "\t\"orientation\": \"${6:portrait}\"",
+      "}"
+    ],
+    "description": "Web Manifest Snippet"
+  },
+  "Web Manifest Icon": {
+    "prefix": "wmi",
+    "body": [
+      "{",
+      "\t\"src\": \"icon-${1:192}x${1:192}.png\",",
+      "\t\"sizes\": \"${1:192}x${1:192}\",",
+      "\t\"type\": \"image/png\"",
+      "}"
+    ],
+    "description": "Icon property for Web Manifest"
+  }
+}
